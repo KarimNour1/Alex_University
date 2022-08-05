@@ -4,9 +4,7 @@
     font-family: 'Work Sans', sans-serif;
     box-sizing: border-box;
 }
-*{
-    outline: 1px dotted red;
-}
+
 body{
     width: 100%;
     background-color: black;
