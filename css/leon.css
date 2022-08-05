@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+*{
+    outline: 1px dotted red;
+}
+body{
+    width: 100%;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+.navbar{
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar-toggler{
+    color: white;
+    font-size: 2rem;
+}
+.navbar-toggler[aria-expanded="true"]{
+    border-color: #33d1cc;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+.links li{
+    display: inline-block;
+    margin: 10px;
+}
+.links li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    position: relative;
+    border-radius: 5px;
+}
+.links li i{
+    color: darkblue;
+    padding: 5px;
+}
+.links .services :hover{
+    background-color: lightgreen;
+    transition: 0.5s;
+}
+.links .Home :hover{
+    background-color: lightgreen;
+    transition: 0.1s;
+}
+.links .About :hover{
+    background-color: lightgreen;
+    transition: 0.9s;
+}
+.links .study :hover{
+    background-color: lightgreen;
+    transition: 0.5s;
+}
+.links .sigh{
+    background-color: #ff3d00;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.content .form{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50vh));
+    margin-bottom: 0px;
+    
+}
+.content button{
+    border: none;
+    background-color: white;
+    font-size: 1.5rem;
+}
+.content input{
+    border: none;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    font-size: 25px;
+}
+.slider{
+    height: 600px;
+    background-image: url(../image/headerbig_11.webp);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    animation: slider 7s infinite linear; 
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+@media (max-width: 1000px) {
+    .slider{
+        height: 300px;
+    }
+}
+@media (max-width: 750px) {
+    .slider{
+        height: 300px;
+    }
+}
+@media (max-width: 400px) {
+    .slider{
+        height: 200px;
+    }
+}
+@keyframes slider{
+    25%{background-image: url(../image/headerbig_1.webp);}
+    50%{background-image: url(../image/headerbig_6.webp);}
+    75%{background-image: url(../image/headerbig_14.webp);}
+    100%{background-image: url(../image/headerbig_11.webp);}
+}
+
+.Alex h1{
+    color: #0c4560;
+}
+.icons{
+    border: 4px #ddd solid;
+    border-radius: 150px;
+}
+.icons .card{
+    border: none;
+}

@@ -1,0 +1,79 @@
+
+
+body{
+    background-image: url(../image/signup-realistic-neon-sign-on-brick-wall-background-3d-rendered-royalty-HP3PF7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Form{
+    margin-left: 500px;
+    margin-top: 100px;
+    width: 300px;
+    height: 450px;
+    background:black;
+    position: absolute;
+    border-radius: 20px;
+    text-align: center;
+}
+/* .Form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../image/signup-realistic-neon-sign-on-brick-wall-background-3d-rendered-royalty-HP3PF7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.Form p{
+    color: white;
+}
+.Form h2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ff7200;
+}
+.Form label{
+    color: #ff7200;
+    display: flex;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Form input{
+    width: 270px;
+    height: 30px;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    letter-spacing: 1px;
+}
+.Form input:focus{
+    outline: none;
+}
+.Form .but{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background: #ff7200;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+}
+.Form .but a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Form p{
+    font-family:  sans-serif;
+    font-weight: 30px;
+}
+.Form a{
+    text-decoration: none;
+    color: #ff7200;
+}
